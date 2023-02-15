@@ -1,0 +1,57 @@
+.form_oyna form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 20px auto;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.crud input {
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border: 1px solid silver;
+  width: 100%;
+}
+
+.sendBtn {
+  margin: 0;
+}
+
+.crud table {
+  margin: 20px auto;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+img {
+  width: 100px;
+  height: 50px;
+}
+
+.remove {
+  background-color: red;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.no {
+  text-align: center;
+}
+
+.edit {
+  background-color: green;
+  margin-top: 10px;
+}
